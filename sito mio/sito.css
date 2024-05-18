@@ -1,0 +1,269 @@
+
+/* @media only screen and (min-width: 1024px) {
+    
+} */
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    box-sizing: border-box;
+}
+
+body{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#wrapper{
+    width: 100%;
+    /* background-color: lightskyblue; */
+}
+
+#top{
+    background-color: lightgray;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav{
+    /* background-color: whitesmoke; */
+    padding: 5px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    position: sticky;  /*-----------rivedere perché non rimane sullo schermo quando scrolli*/
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.account{
+    margin-left: 10%;
+    text-decoration: none;
+    color: black;
+    padding-right: 5%;
+}
+
+.lk, .fb, .inst{
+    height: 35px;
+}
+
+#logo{
+    order: -1; 
+    margin-left: 10%;
+    flex-basis: auto;
+}
+
+ul {
+    padding: 5px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li a {
+    padding: 10px; 
+    color: black; 
+    background-color: whitesmoke;
+    margin: 5px;
+    display: flex;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li a:hover {
+    background-color: rgb(170, 232, 243);
+}
+
+.iniziale{
+    /* width: 75%; */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* background-color: cadetblue; */
+    display: flex;
+    flex-direction: column;
+    background: url(/img/foto\ iniziale.jpg);
+    background-size: cover;
+}
+
+.sovrapposto{
+    top: 15%;
+    padding: 15px;
+    text-align: left;
+    font-size: 35px;
+    color: rgb(92, 91, 91);}
+
+.testo1{padding: 25px;}
+
+.testo2{
+    background-color: whitesmoke;
+    font-size: 30px;
+    padding: 30px;
+}
+
+#box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#content{
+    flex: 1;
+    /* background-color: rgb(190, 107, 190); */
+}
+
+#sidebar{
+    /* background-color: greenyellow; */
+    width: 25%;
+    margin-left: 10px;
+    margin-top: 5px;
+    background: url(/img/sidebar.jpg) no-repeat center/cover;  
+}
+
+#corsi{
+    
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 60%; 
+    margin-top: 20px; 
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.gratuiti{
+    border: 2px solid black;
+    padding: 25px;
+    width: 48%; 
+    margin: 30px;
+    background-color: aliceblue;
+}
+
+.pagamento{
+    border: 2px solid black;
+    padding: 25px;
+    width: 48%; 
+    margin: 30px;
+    background-color: aliceblue;
+}
+
+.prima img {width: 100%;}
+
+.corsi2{ 
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item {
+    width: 48%;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+}
+
+.pulsante {
+    display: block;
+    padding: 5px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+#recensioni{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.slideshow {
+    max-width: 700px;
+    font-size: 35px;
+}
+
+.slide{
+    width: 100%;
+    height: auto;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+
+.contattaci{
+    background-color: rgb(226, 226, 226);
+    height: 150px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+.contattaci p{
+    margin-left: 200px;
+    padding: 25px;
+}
+
+.pulsante2{
+   text-align: center;
+}
+
+
+.eventi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.eventi img{
+    height: 250px;
+}
+
+#sponsor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.sponsor{
+    width: 100%;
+    height: auto;
+}
+
+/* .sponsor img {
+    height: 400px;
+} */
+
+#menu{  
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+}
+#menu a{
+    padding: 10px; 
+    color: black; 
+    margin: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+}
+
+footer{
+    margin-top: 50px;
+    background-color: lightgray;
+}
